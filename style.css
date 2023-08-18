@@ -118,6 +118,7 @@ body {
     width: 139px;
     border-radius: 9999px;
     box-shadow: 20px 20px 30px 0px #0000004D;
+    object-fit: cover;
 }
 
 .card-info {
@@ -142,4 +143,13 @@ body {
     font-size: 1.125rem;
     line-height: 2;
     color: #ACACAC;
+}
+
+
+.filled-heart {
+    display: none;
+}
+
+.empty-heart {
+    display: inline-block;
 }
